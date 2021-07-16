@@ -1,0 +1,12 @@
+body {
+    padding: 70px;
+    margin: 0;
+}
+
+button {
+    width: 140px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
