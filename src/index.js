@@ -5,7 +5,8 @@ import CounterApp from './components/01-useState/CounterApp';
 import HooksApp from './HooksApp';
 import { CounterWithCustomHook } from './components/01-useState/CounterWithCustomHook';
 import SimpleForm from './components/02-useEffect/SimpleForm';
+import FormWithCustomHook from './components/02-useEffect/FormWithCustomHook';
 
 const root = document.getElementById('root');
 
-ReactDOM.render(<SimpleForm />, root);
+ReactDOM.render(<FormWithCustomHook />, root);
