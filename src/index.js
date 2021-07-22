@@ -9,8 +9,10 @@ import ReactDOM from 'react-dom';
 // import MultipleCustomHooks from './components/examples/MultipleCustomHooks';
 // import FocusScreen from './components/04-useRef/FocusScreen';
 // import RefUseCase from './components/04-useRef/RefUseCase';
-import LayoutEffect from './components/05-useLayoutEffect/LayoutEffect';
+// import LayoutEffect from './components/05-useLayoutEffect/LayoutEffect';
+// import { Memorize } from './components/06-memos/Memorize';
+import { MemoHook } from './components/06-memos/MemoHook';
 
 const root = document.getElementById('root');
 
-ReactDOM.render(<LayoutEffect />, root);
+ReactDOM.render(<MemoHook />, root);

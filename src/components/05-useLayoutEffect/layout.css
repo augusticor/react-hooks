@@ -3,6 +3,24 @@ body {
     margin: 0;
 }
 
+.blink_me {
+    animation: blinker 1s linear 3;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
 .blockquote {
     display: flex;
+}
+
+.margin-right {
+    margin-right: 25px;
+}
+
+.margin-top {
+    margin-top: 20px;
 }
