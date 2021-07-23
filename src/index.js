@@ -11,8 +11,10 @@ import ReactDOM from 'react-dom';
 // import RefUseCase from './components/04-useRef/RefUseCase';
 // import LayoutEffect from './components/05-useLayoutEffect/LayoutEffect';
 // import { Memorize } from './components/06-memos/Memorize';
-import { MemoHook } from './components/06-memos/MemoHook';
+// import { MemoHook } from './components/06-memos/MemoHook';
+// import CallBackHook from './components/06-memos/CallBackHook';
+import { Padre } from './components/07-tarea-memo/Padre';
 
 const root = document.getElementById('root');
 
-ReactDOM.render(<MemoHook />, root);
+ReactDOM.render(<Padre />, root);
