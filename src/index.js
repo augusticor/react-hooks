@@ -13,8 +13,10 @@ import ReactDOM from 'react-dom';
 // import { Memorize } from './components/06-memos/Memorize';
 // import { MemoHook } from './components/06-memos/MemoHook';
 // import CallBackHook from './components/06-memos/CallBackHook';
-import { Padre } from './components/07-tarea-memo/Padre';
+// import { Padre } from './components/07-tarea-memo/Padre';
+// import './components/08-useReducer/intro-reducer';
+import TodoApp from './components/08-useReducer/TodoApp';
 
 const root = document.getElementById('root');
 
-ReactDOM.render(<Padre />, root);
+ReactDOM.render(<TodoApp />, root);
