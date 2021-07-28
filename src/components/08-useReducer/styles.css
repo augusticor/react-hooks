@@ -1,3 +1,18 @@
 body {
     padding: 55px
 }
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.complete {
+    text-decoration: line-through;
+}
+
+.list-group-item {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}

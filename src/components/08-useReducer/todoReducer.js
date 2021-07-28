@@ -1,11 +1,9 @@
 export const todoReducer = (state = [], action) => {
 	switch (action.type) {
-		// case 'create':
-		// 	console.log('Create');
-		// 	break;
-		// case 'update':
-		// 	console.log('Update');
-		// 	break;
+		case 'create':
+			return [...state, action.payload];
+		case 'update':
+			return state;
 		default:
 			return state;
 	}
