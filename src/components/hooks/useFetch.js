@@ -39,7 +39,7 @@ export const useFetch = (originURL) => {
 				setState({
 					data: null,
 					loading: true,
-					error,
+					error: 'Error loading the info !!',
 				});
 			});
 	}, [originURL]);
