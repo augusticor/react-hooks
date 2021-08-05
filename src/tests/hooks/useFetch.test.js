@@ -17,7 +17,7 @@ describe('Tests on useFetch custom hook now with ref', () => {
 	test('Should resolve request {data: quote, loading: false, error: null}', async () => {
 		const { result, waitForNextUpdate } = renderHook(() => useFetch(url));
 
-		await waitForNextUpdate({ timeout: 3000 });
+		await waitForNextUpdate({ timeout: 4000 });
 
 		expect(result.current).toEqual({
 			data: expect.any(Array),
