@@ -17,13 +17,13 @@ const TodoListItem = ({ todo, index, handleDelete, toggleComplete }) => {
 
 TodoListItem.propTypes = {
 	todo: PropTypes.object.isRequired,
-	i: PropTypes.number,
+	index: PropTypes.number,
 	handleDelete: PropTypes.func.isRequired,
 	toggleComplete: PropTypes.func.isRequired,
 };
 
 TodoListItem.defaultProps = {
-	i: 1,
+	index: 1,
 };
 
 export default TodoListItem;
