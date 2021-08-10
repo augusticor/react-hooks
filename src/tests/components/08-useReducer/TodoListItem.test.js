@@ -40,4 +40,9 @@ describe('Tests on <TodoListItem /> component', () => {
 		const hasClass = wrapper.find('p').hasClass('complete');
 		expect(hasClass).toBe(todo.done);
 	});
+
+	test('If TODO is done, done checkbox should be checked', () => {
+		const checkbox = wrapper.find('.checkbx');
+		expect(checkbox.prop('checked')).toBe(todo.done);
+	});
 });
