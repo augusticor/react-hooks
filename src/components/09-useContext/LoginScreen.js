@@ -21,12 +21,12 @@ const LoginScreen = () => {
 
 			<form onSubmit={handleSubmit}>
 				<div className='form-group'>
-					<label htmlFor='textinput'>Name</label>
-					<input name='userName' type='text' value={userName} placeholder='Pepito Alimania' onChange={handleInputChange} />
+					<label htmlFor='nameinput'>Name</label>
+					<input id='nameinput' name='userName' type='text' value={userName} placeholder='Pepito Alimania' onChange={handleInputChange} />
 				</div>
 				<div className='form-group'>
-					<label htmlFor='textinput'>Favorite food</label>
-					<input name='food' type='text' value={food} placeholder='Pizza' onChange={handleInputChange} />
+					<label htmlFor='foodinput'>Favorite food</label>
+					<input id='foodinput' name='food' type='text' value={food} placeholder='Pizza' onChange={handleInputChange} />
 				</div>
 				<button type='submit' className='btn btn-primary'>
 					Login
